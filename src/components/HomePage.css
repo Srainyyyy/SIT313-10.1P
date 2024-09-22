@@ -1,0 +1,25 @@
+html, body {
+    height: 100%; /* 使 HTML 和 body 高度为 100% */
+    margin: 0; /* 去掉默认边距 */
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column; /* 纵向排列子元素 */
+    min-height: 100vh; /* 确保至少占满整个视口高度 */
+}
+
+.subscribe-section {
+    flex: 1; /* 使此部分占据剩余空间 */
+    width: 90%; /* 设置宽度为 90% */
+    margin: 0 auto; /* 水平居中 */
+    display: flex;
+    justify-content: center; /* 水平居中内容 */
+    align-items: center; /* 垂直居中内容 */
+}
+
+.footer-section {
+    background-color: #ffffff; /* 页脚背景颜色 */
+    padding: 10px; /* 页脚内边距 */
+    text-align: center; /* 内容居中 */
+}

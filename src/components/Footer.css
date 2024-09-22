@@ -1,0 +1,68 @@
+.footer-container {
+    background-color: #175b5a;
+    color: white;
+    padding: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2em; /* 添加这一行 */
+}
+
+.footer-column {
+    flex: 1;
+    margin: 1em;
+}
+
+.footer-column h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 0.5em 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.footer-bottom {
+    text-align: center;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom .horizontal-list {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom .horizontal-list li {
+    margin: 0 1em;
+}
+
+.footer-bottom .horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-column ul li a .icon {
+    margin-right: 0.5em;
+}

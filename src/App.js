@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
-import HomePage from './components/HomePage'; // 主页面组件
+import HomePage from './components/HomePage'; 
 import PlansPage from './components/PlansPage';
 import PaymentPage from './components/PaymentPage';
 import PostPage from './components/PostPage';
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/post" element={<PostPage />} />
         <Route path="/premium-trial" element={<PremiumTrialPage />} />
-        {/* 可以在这里添加其他页面的路由 */}
+        
       </Routes>
     </Router>
   );
